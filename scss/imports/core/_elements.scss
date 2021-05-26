@@ -1,0 +1,26 @@
+// css button, title, icon, elements...
+img {
+    max-width: 100%;
+}
+
+.titlemain {
+    font-size: 32px;
+    font-weight: 700;
+    color: #555654;
+    line-height: 2;
+}
+.description {
+    color: #bcbec0;
+}
+
+.btnmain {
+    text-decoration: none;
+    color: #595758;
+    padding: 20px 90px;
+    border: 1px solid black;
+    &:hover {
+        background: #555654;
+        color: #ffffff;
+        transition: 0.5s;
+    }
+}
