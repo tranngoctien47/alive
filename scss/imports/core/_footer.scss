@@ -48,3 +48,26 @@ footer {
         }
     }
 }
+@media (max-width: 767px) {
+    footer {
+        .container {
+            .footer__row {
+                flex-direction: column;
+                .mxh {
+                    flex-direction: column;
+                    margin: 50px 0;
+                    .btnmain {
+                        margin-right: 0;
+                    }
+                    .icon {
+                        display: flex;
+                        margin-top: 30px;
+                        img {
+                            width: 45px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

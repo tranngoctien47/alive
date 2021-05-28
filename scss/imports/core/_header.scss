@@ -32,4 +32,34 @@ header {
             }
         }
     }
+    .btnRight {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    header {
+        .inner {
+            .menu {
+                display: none;
+            }
+            .btnRight {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .lang {
+                    .lang__current {
+                        border: 1px solid #ffff;
+                        color: #ffff;
+                        padding: 10px;
+                    }
+                }
+                .btnmenu {
+                    margin-left: 10px;
+                    color: #ffffff;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
 }

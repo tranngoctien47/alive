@@ -18,9 +18,9 @@ img {
     color: #595758;
     padding: 20px 90px;
     border: 1px solid black;
+    transition: all 0.5s;
     &:hover {
         background: #555654;
         color: #ffffff;
-        transition: 0.5s;
     }
 }
